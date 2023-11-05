@@ -10,6 +10,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        tap_dance_shift: tap_dance_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_SHIFT";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT>, <&kp LEFT_SHIFT>;
+
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
