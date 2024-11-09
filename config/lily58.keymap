@@ -11,7 +11,8 @@
 #include <dt-bindings/zmk/mouse.h>
 
 &rgb_ug {
-status = "disabled";
+    default-on = <0>;
+    status = "disabled";
 };
 
 / {
