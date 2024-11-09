@@ -12,7 +12,6 @@
 
 &rgb_ug {
     default-on = <0>;
-    status = "disabled";
 };
 
 / {
