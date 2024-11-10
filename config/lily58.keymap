@@ -10,10 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
-&rgb_ug {
-    default-on = <0>;
-};
-
 / {
     behaviors {
         tap_dance_shift: tap_dance_shift {
